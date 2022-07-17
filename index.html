@@ -4,7 +4,7 @@
 
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <title>Trivia!</title>
     <script>
         // TODO: Add code to check answers to questions
@@ -26,7 +26,7 @@
 
             document.querySelector("#check").addEventListener("click", function () {
                 let input = document.querySelector("input");
-                if (input.value === "Arctic" || "arctic") {
+                if (input.value === "Arctic") {
                     input.style.backgroundColor = "green";
                     document.querySelector("#answer2").innerHTML = "Correct";
                 } else {
